@@ -1,0 +1,249 @@
+<manifest alg="2" build="2017.0.2.363" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="design4dj.com" resolutions="1x" timestamp="1495991173715">
+  <folder name="css">
+    <file name="site_global.css" crc="4003329165"/>
+    <file name="index.css" crc="66740604" ref="index"/>
+    <file name="nomq_index.css" crc="367424061" ref="index"/>
+  </folder>
+  <folder name="fonts">
+    <file name="montserrat-bold-webfont.woff" crc="218980517"/>
+    <file name="montserrat-bold-webfont.eot" crc="4208353868"/>
+    <file name="montserrat-bold-webfont.svg" crc="4129020171"/>
+    <file name="montserrat-light-webfont.woff" crc="371376182"/>
+    <file name="montserrat-light-webfont.eot" crc="3776299489"/>
+    <file name="montserrat-light-webfont.svg" crc="4230968976"/>
+  </folder>
+  <folder name="scripts">
+    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index"/>
+    <file name="museutils.js" crc="4232573551" ref="index"/>
+    <file name="whatinput.js" crc="86476730" ref="index"/>
+    <file name="museconfig.js" crc="3849126041" ref="index"/>
+    <file name="jquery.musepolyfill.bgsize.js" crc="3880853905" ref="index"/>
+    <file name="jquery.musemenu.js" crc="38860304" ref="index"/>
+    <file name="jquery.watch.js" crc="3844535323" ref="index"/>
+    <file name="webpro.js" crc="3770351119" ref="index"/>
+    <file name="form_check.php" crc="3841221102" ref="index"/>
+    <file name="form_throttle.php" crc="4048049783" ref="index"/>
+    <file name="form_process.php" crc="3899230280" ref="index"/>
+    <file name="form-u1872.php" crc="3945828155" ref="index"/>
+    <file name="musewpslideshow.js" crc="4244742588" ref="index"/>
+    <file name="jquery.museoverlay.js" crc="432750910" ref="index"/>
+    <file name="touchswipe.js" crc="3912873526" ref="index"/>
+    <file name="form-u2432.php" crc="4227311464" ref="index"/>
+    <file name="musewpdisclosure.js" crc="347705465" ref="index"/>
+    <file name="html5shiv.js" crc="4241844378" ref="index"/>
+    <file name="jquery.museresponsive.js" crc="433634197" ref="index"/>
+    <file name="require.js" crc="4234670167" ref="index"/>
+  </folder>
+  <folder name="images">
+    <file name="background_01.jpg" crc="3810185040" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="dj_logo.png" crc="3789138669" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="blank.gif" crc="4208392903" ref="index"/>
+    <file name="about_photo_01.jpg" crc="314126744" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="about_photo_02.jpg" crc="4004612815" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="flyer_01.jpg" crc="233242050" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="flyer_01-u1813-r-fr.png" crc="3845571281" ref="index"/>
+    <file name="flyer_02.jpg" crc="334783514" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="flyer_02-u1827-r-fr.png" crc="309172254" ref="index"/>
+    <file name="flyer_03.jpg" crc="277782480" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="flyer_03-u1833-r-fr.png" crc="529435305" ref="index"/>
+    <file name="background_02.jpg" crc="212380794" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="news_article_01.jpg" crc="335976236" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="news_article_02.jpg" crc="3891284811" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="news_article_03.jpg" crc="476746830" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="background_03.jpg" crc="531855720" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="photo_01_s.jpg" crc="114996835" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="photo_01_s-u2137-r-fr.png" crc="283510162" ref="index"/>
+    <file name="photo_02_s.jpg" crc="508293648" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="photo_02_s-u2216-r-fr.png" crc="4279856636" ref="index"/>
+    <file name="photo_03_s.jpg" crc="4203015962" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="photo_03_s-u2230-r-fr.png" crc="459647294" ref="index"/>
+    <file name="photo_04_s.jpg" crc="1072934" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="photo_04_s-u2244-r-fr.png" crc="3990062467" ref="index"/>
+    <file name="photo_05_s.jpg" crc="535903285" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="photo_05_s-u2257-r-fr.png" crc="3867534961" ref="index"/>
+    <file name="photo_06_s.jpg" crc="139361912" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="photo_06_s-u2272-r-fr.png" crc="156836870" ref="index"/>
+    <file name="photo_01_b.jpg" crc="4204116751" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="photo_02_b.jpg" crc="4049120571" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="photo_03_b.jpg" crc="3782504450" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="photo_04_b.jpg" crc="494553461" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="photo_05_b.jpg" crc="3877907325" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="photo_06_b.jpg" crc="140637802" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="btn_close.png" crc="277875761" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="up.png" crc="4242388324" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="flyer_01-u1813-fr.jpg" crc="4137299805" ref="index"/>
+    <file name="flyer_01-u1813-r-fr2.png" crc="201450248" ref="index"/>
+    <file name="flyer_02-u1827-fr.jpg" crc="3866928107" ref="index"/>
+    <file name="flyer_02-u1827-r-fr2.png" crc="3832487023" ref="index"/>
+    <file name="flyer_03-u1833-fr.jpg" crc="4024440365" ref="index"/>
+    <file name="flyer_03-u1833-r-fr2.png" crc="409265263" ref="index"/>
+    <file name="background_02-u1861-fr.jpg" crc="4252848464" ref="index"/>
+    <file name="background_03-u2361-fr.jpg" crc="3776708794" ref="index"/>
+    <file name="photo_01_s-u2137-fr.jpg" crc="420016824" ref="index"/>
+    <file name="photo_01_s-u2137-r-fr2.png" crc="3857150276" ref="index"/>
+    <file name="photo_02_s-u2216-fr.jpg" crc="355431890" ref="index"/>
+    <file name="photo_02_s-u2216-r-fr2.png" crc="4026427160" ref="index"/>
+    <file name="photo_03_s-u2230-fr.jpg" crc="71485377" ref="index"/>
+    <file name="photo_03_s-u2230-r-fr2.png" crc="458533491" ref="index"/>
+    <file name="photo_04_s-u2244-fr.jpg" crc="4280948467" ref="index"/>
+    <file name="photo_04_s-u2244-r-fr2.png" crc="322974362" ref="index"/>
+    <file name="photo_05_s-u2257-fr.jpg" crc="4001815368" ref="index"/>
+    <file name="photo_05_s-u2257-r-fr2.png" crc="175228413" ref="index"/>
+    <file name="photo_06_s-u2272-fr.jpg" crc="56367402" ref="index"/>
+    <file name="photo_06_s-u2272-r-fr2.png" crc="294559187" ref="index"/>
+    <file name="flyer_01-u1813-fr2.jpg" crc="52135656" ref="index"/>
+    <file name="flyer_01-u1813-r-fr3.png" crc="17697903" ref="index"/>
+    <file name="flyer_02-u1827-fr2.jpg" crc="95829663" ref="index"/>
+    <file name="flyer_02-u1827-r-fr3.png" crc="3843516171" ref="index"/>
+    <file name="flyer_03-u1833-fr2.jpg" crc="126793840" ref="index"/>
+    <file name="flyer_03-u1833-r-fr3.png" crc="175350961" ref="index"/>
+    <file name="background_02-u1861-fr2.jpg" crc="3812107025" ref="index"/>
+    <file name="background_03-u2361-fr2.jpg" crc="491377711" ref="index"/>
+    <file name="photo_01_s-u2137-fr2.jpg" crc="3939071340" ref="index"/>
+    <file name="photo_01_s-u2137-r-fr3.png" crc="70245988" ref="index"/>
+    <file name="photo_02_s-u2216-fr2.jpg" crc="365453420" ref="index"/>
+    <file name="photo_02_s-u2216-r-fr3.png" crc="200318436" ref="index"/>
+    <file name="photo_03_s-u2230-fr2.jpg" crc="3921231201" ref="index"/>
+    <file name="photo_03_s-u2230-r-fr3.png" crc="3761554939" ref="index"/>
+    <file name="photo_04_s-u2244-fr2.jpg" crc="303385182" ref="index"/>
+    <file name="photo_04_s-u2244-r-fr3.png" crc="4181025132" ref="index"/>
+    <file name="photo_05_s-u2257-fr2.jpg" crc="4068672971" ref="index"/>
+    <file name="photo_05_s-u2257-r-fr3.png" crc="287419265" ref="index"/>
+    <file name="photo_06_s-u2272-fr2.jpg" crc="118340945" ref="index"/>
+    <file name="photo_06_s-u2272-r-fr3.png" crc="111778836" ref="index"/>
+    <file name="photo_01_b-u2141-fr.jpg" crc="10702102" ref="index"/>
+    <file name="photo_02_b-u2219-fr.jpg" crc="3940699678" ref="index"/>
+    <file name="photo_03_b-u2233-fr.jpg" crc="101630362" ref="index"/>
+    <file name="photo_04_b-u2247-fr.jpg" crc="427851529" ref="index"/>
+    <file name="photo_05_b-u2260-fr.jpg" crc="4152464562" ref="index"/>
+    <file name="photo_06_b-u2275-fr.jpg" crc="338252570" ref="index"/>
+    <file name="flyer_01-u1813-fr3.jpg" crc="47717644" ref="index"/>
+    <file name="flyer_01-u1813-r-fr4.png" crc="355820309" ref="index"/>
+    <file name="flyer_02-u1827-fr3.jpg" crc="195813730" ref="index"/>
+    <file name="flyer_02-u1827-r-fr4.png" crc="317985169" ref="index"/>
+    <file name="flyer_03-u1833-fr3.jpg" crc="118510945" ref="index"/>
+    <file name="flyer_03-u1833-r-fr4.png" crc="3866210731" ref="index"/>
+    <file name="background_02-u1861-fr3.jpg" crc="3991325480" ref="index"/>
+    <file name="background_03-u2361-fr3.jpg" crc="108731103" ref="index"/>
+    <file name="photo_01_s-u2137-fr3.jpg" crc="46286903" ref="index"/>
+    <file name="photo_01_s-u2137-r-fr4.png" crc="530221216" ref="index"/>
+    <file name="photo_02_s-u2216-fr3.jpg" crc="296872505" ref="index"/>
+    <file name="photo_02_s-u2216-r-fr4.png" crc="4198030560" ref="index"/>
+    <file name="photo_03_s-u2230-fr3.jpg" crc="244048238" ref="index"/>
+    <file name="photo_03_s-u2230-r-fr4.png" crc="4265723260" ref="index"/>
+    <file name="photo_04_s-u2244-fr3.jpg" crc="4133833465" ref="index"/>
+    <file name="photo_04_s-u2244-r-fr4.png" crc="76025480" ref="index"/>
+    <file name="photo_05_s-u2257-fr3.jpg" crc="4092813445" ref="index"/>
+    <file name="photo_05_s-u2257-r-fr4.png" crc="4021403927" ref="index"/>
+    <file name="photo_06_s-u2272-fr3.jpg" crc="4067935107" ref="index"/>
+    <file name="photo_06_s-u2272-r-fr4.png" crc="3871518909" ref="index"/>
+    <file name="photo_01_b-u2141-fr2.jpg" crc="152817482" ref="index"/>
+    <file name="photo_02_b-u2219-fr2.jpg" crc="4111712345" ref="index"/>
+    <file name="photo_03_b-u2233-fr2.jpg" crc="3827222901" ref="index"/>
+    <file name="photo_04_b-u2247-fr2.jpg" crc="3903973514" ref="index"/>
+    <file name="photo_05_b-u2260-fr2.jpg" crc="4108757158" ref="index"/>
+    <file name="photo_06_b-u2275-fr2.jpg" crc="450385598" ref="index"/>
+    <file name="menu_back.png" crc="122523399" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="menu_back_02.png" crc="253246421" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="background_01-u1653-fr.jpg" crc="4002147966" ref="index"/>
+    <file name="about_photo_01-u1740-fr.jpg" crc="31948045" ref="index"/>
+    <file name="about_photo_02-u1740-r-fr.jpg" crc="458277387" ref="index"/>
+    <file name="flyer_01-u1813-fr4.jpg" crc="304824263" ref="index"/>
+    <file name="flyer_01-u1813-r-fr5.png" crc="4124403811" ref="index"/>
+    <file name="flyer_02-u1827-fr4.jpg" crc="411189788" ref="index"/>
+    <file name="flyer_02-u1827-r-fr5.png" crc="45332852" ref="index"/>
+    <file name="flyer_03-u1833-fr4.jpg" crc="444484043" ref="index"/>
+    <file name="flyer_03-u1833-r-fr5.png" crc="4261557384" ref="index"/>
+    <file name="background_02-u1861-fr4.jpg" crc="269656978" ref="index"/>
+    <file name="news_article_01-u1996-fr.jpg" crc="4258019148" ref="index"/>
+    <file name="news_article_02-u2045-fr.jpg" crc="208865109" ref="index"/>
+    <file name="news_article_03-u2054-fr.jpg" crc="4281484393" ref="index"/>
+    <file name="background_03-u2361-fr4.jpg" crc="3928024480" ref="index"/>
+    <file name="photo_01_s-u2137-fr4.jpg" crc="37289894" ref="index"/>
+    <file name="photo_01_s-u2137-r-fr5.png" crc="346821597" ref="index"/>
+    <file name="photo_02_s-u2216-fr4.jpg" crc="417936128" ref="index"/>
+    <file name="photo_02_s-u2216-r-fr5.png" crc="4225429000" ref="index"/>
+    <file name="photo_03_s-u2230-fr4.jpg" crc="261343067" ref="index"/>
+    <file name="photo_03_s-u2230-r-fr5.png" crc="3916738433" ref="index"/>
+    <file name="photo_04_s-u2244-fr4.jpg" crc="4254496796" ref="index"/>
+    <file name="photo_04_s-u2244-r-fr5.png" crc="3804885301" ref="index"/>
+    <file name="photo_05_s-u2257-fr4.jpg" crc="86562142" ref="index"/>
+    <file name="photo_05_s-u2257-r-fr5.png" crc="4071441876" ref="index"/>
+    <file name="photo_06_s-u2272-fr4.jpg" crc="4050662722" ref="index"/>
+    <file name="photo_06_s-u2272-r-fr5.png" crc="3808629547" ref="index"/>
+    <file name="photo_01_b-u2141-fr3.jpg" crc="4132745425" ref="index"/>
+    <file name="photo_02_b-u2219-fr3.jpg" crc="3887469519" ref="index"/>
+    <file name="photo_03_b-u2233-fr3.jpg" crc="295775556" ref="index"/>
+    <file name="photo_04_b-u2247-fr3.jpg" crc="451321430" ref="index"/>
+    <file name="photo_05_b-u2260-fr3.jpg" crc="313143780" ref="index"/>
+    <file name="photo_06_b-u2275-fr3.jpg" crc="4046024727" ref="index"/>
+  </folder>
+  <file name="index.html" crc="3989512857" seo="true" mt="1495991147415" redirect="true"/>
+</manifest>
