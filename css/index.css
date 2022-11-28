@@ -2773,7 +2773,7 @@ print {
   #u2137 {
     width: 350px;
     height: 350px;
-    background-image: url("../images/photo_01_s.jpg?crc=114996835");
+    background-image: url("../images/photos_section1.jpg?crc=114996835");
   }
 
   #u2137:hover {
@@ -2787,7 +2787,7 @@ print {
   #u2216 {
     width: 350px;
     height: 350px;
-    background-image: url("../images/photo_02_s.jpg?crc=508293648");
+    background-image: url("../images/photos_section2.jpg?crc=508293648");
     left: 380px;
   }
 
@@ -2802,7 +2802,7 @@ print {
   #u2230 {
     width: 350px;
     height: 350px;
-    background-image: url("../images/photo_03_s.jpg?crc=4203015962");
+    background-image: url("../images/photos_section3.jpg?crc=4203015962");
     left: 760px;
   }
 
@@ -2817,7 +2817,7 @@ print {
   #u2244 {
     width: 350px;
     height: 350px;
-    background-image: url("../images/photo_04_s.jpg?crc=1072934");
+    background-image: url("../images/photos_section4.jpg?crc=1072934");
     top: 380px;
   }
 
@@ -2832,7 +2832,7 @@ print {
   #u2257 {
     width: 350px;
     height: 350px;
-    background-image: url("../images/photo_05_s.jpg?crc=535903285");
+    background-image: url("../images/photos_section5.jpg?crc=535903285");
     top: 380px;
     left: 380px;
   }
@@ -2848,13 +2848,13 @@ print {
   #u2272 {
     width: 350px;
     height: 350px;
-    background-image: url("../images/photo_06_s.jpg?crc=139361912");
+    background-image: url("../images/photos_section6.jpg?crc=139361912");
     top: 380px;
     left: 760px;
   }
 
   #u2272:hover {
-    background-image: url("../images/photo_06_s-u2272-r-fr.png?crc=156836870");
+    background-image: url("../images/photos_section6.jpg?crc=156836870");
     background-color: #50525F;
     background-color: rgba(37, 39, 56, 0.8);
     width: 350px;
