@@ -1,0 +1,429 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Quicksand', sans-serif;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  scroll-behavior: smooth;
+}
+
+:root{
+  --bg-color:#fff;
+  --text-color:rgb(7, 7, 7);
+  
+}
+
+body {
+  overflow-x: hidden;
+  /* border: 2px solid red; */
+
+}
+header{
+  z-index: 1000;
+  background: transparent;
+	right: 0;
+	top: 0;
+	width: 100%;
+	align-items: center;
+	justify-content: space-between;
+	border-bottom: 1px solid transparent;
+	transition: all .40s ease;
+}
+
+.org-text{
+  color: #ff7700;
+}
+
+header.sticky{
+  position: fixed;
+	background: #080c1b90; ;
+	border-bottom: 1px solid #0e1630;
+}
+
+.main-width {
+  max-width: 95%;
+  margin: 0 auto;
+}
+
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 20px;
+  padding-left: 8%;
+  padding-right: 8%;
+}
+
+nav a{
+  transition: all .40 ease;
+
+}
+
+nav .hamb {
+  width: 30px;
+  height: 20px;
+  right: 3%;
+  top: 40px;
+  z-index: 150;
+  position: absolute;
+  cursor: pointer;
+  display: none;
+}
+
+nav .hamb span {
+  display: block;
+  background: #fe511cb5;
+  width: 100%;
+  height: 3px;
+  transition: .3s;
+  transition-property: transform, opacity;
+}
+
+nav .hamb span:nth-child(2) {
+  margin: 7px 0px;
+}
+
+.logo  img{
+  width: 110px;
+  height: auto;
+
+}
+
+
+
+
+
+nav ul li {
+  display: inline-block;
+  padding: 10px 25px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.hero {
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(rgba(216, 4, 4, 0.041), rgba(207, 137, 137, 0.067)), url(../images/mainbg2.jpg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  /* border: 2px solid red; */
+  justify-content: flex-start;
+
+}
+.big-name {
+  color: #FE4F1C;
+  font-size: 55px;
+  margin: 10px 0px 10px;
+}
+
+.hero-bio {
+  width: 40%;
+  color: white;
+  font-size: 16px;
+  font-weight: lighter;
+  line-height: 30px;
+  letter-spacing: 1px;
+}
+
+@media screen and (max-width:930px) {
+  .hero {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(216, 4, 4, 0.041), rgba(207, 137, 137, 0.067)), url(../images/mainbg2.jpg);
+    /* background-size: cover; */
+    /* background-position: center; */
+    position: relative;
+    /* border: 2px solid red; */
+
+    /*  */
+    background-repeat: no-repeat;
+    /* background-size: contain; */
+
+  }
+
+  .main-width {
+    max-width: 95%;
+    margin: 0 auto;
+  
+  
+  }
+}
+
+
+
+div ul li a:hover {
+  color: #FE4F1C;
+  transition: .4s;
+}
+
+#bum-space {
+  visibility: hidden;
+}
+
+@media screen and (max-width:930px) {
+  nav .hamb {
+    display: initial;
+  }
+
+  .click {
+    top: 46%;
+  }
+
+  .click span {
+    position: absolute;
+    margin-top: 12px;
+  }
+
+  .click span:first-child {
+    transform: rotate(-40deg);
+  }
+
+  .click span:nth-child(2) {
+    opacity: 0;
+    margin: 0;
+  }
+
+  .click span:last-child {
+    transform: rotate(40deg);
+    top: 0;
+  }
+
+  nav .nav-list {
+    position: absolute;
+    top: 99px;
+    /* right: -65%; */
+    opacity: 0;
+    display: none;
+    bottom: 0;
+    width: 60%;
+    height: 50%;
+    background: rgba(0, 0, 0, 0.862);
+    z-index: 120;
+    padding: 6% 9%;
+    transition: .3s right;
+    border-radius: 10px;
+  }
+
+  #bum-space {
+    display: none;
+  }
+
+  nav .nav-list li {
+    display: block;
+
+  }
+
+  nav .nav-list li a {
+    display: block;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    margin-left: 0;
+    margin-bottom: 5px;
+
+  }
+
+  .donate-btn {
+    position: absolute;
+    bottom: 0;
+    right: 20%;
+    left: 20%;
+    padding: 7px 15px;
+    font-size: 14px;
+  }
+
+  nav .nav-list.open {
+    right: 0;
+    display: block;
+    opacity: 100;
+
+
+  }
+
+}
+
+/* .donate-btn {
+  background-color: #FE4F1C;
+  text-decoration: none;
+  color: white;
+  border: 2px solid transparent;
+  font-weight: bold;
+  padding: 5px 20px;
+  border-radius: 30px;
+  transition: transform .4s;
+
+} */
+
+.donate-btn {
+  display: inline-block;
+  text-decoration: none;
+  background: transparent;
+  border: 2px solid #FE4F1C;
+  padding: 6px 28px;
+  border-radius: 30px;
+  line-height: 1.3;
+  color: #FE4F1C;
+  font-weight: 500;
+}
+
+.donate-btn:hover {
+  /* transform: scale(1.2); */
+  background: #FE4F1C;
+  color: white;
+  box-shadow: 0px 0px 5px #000, 0px 0px 15px #858585;
+  border: 2px solid transparent;
+  transition: .4s;
+
+}
+
+div ul li {
+  display: inline;
+  list-style-type: none;
+  padding: 10px 10px;
+
+
+}
+
+div ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.socials {
+  position: absolute;
+  bottom: 0;
+  right: 4%;
+}
+
+.socials a {
+  width: 37px;
+  height: 37px;
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 17px;
+  cursor: pointer;
+  background-color: rgba(255, 255, 255, 0.151);
+}
+
+.socials a:hover {
+  transform: scale(1.1);
+  color: white;
+  transition: .4s;
+}
+
+.socials .twitter:hover {
+  background: #00acee;
+}
+
+.socials .facebook:hover {
+  background: #3b5998;
+}
+
+.socials .instagram:hover {
+  background: #d62976;
+}
+
+.socials .soundcloud:hover {
+  background: #ff7700;
+}
+
+.socials .apple:hover {
+  background: rgba(217, 72, 221);
+}
+
+
+
+
+.txt-wht {
+  color: white;
+  text-transform: uppercase;
+
+}
+
+.txt-md {
+  font-size: 25px;
+}
+
+.txt-20px {
+  font-size: 20px;
+}
+
+
+.book-me-btn {
+  background-color: #FE4F1C;
+  text-transform: capitalize;
+  text-decoration: none;
+  color: white;
+  border: 2px solid transparent;
+  padding: 5px 20px;
+  border-radius: 30px;
+  transition: transform .4s;
+  box-shadow: 0px 0px 5px #000, 0px 0px 15px #858585;
+
+}
+
+.book-me-btn:hover {
+  color: #FE4F1C;
+  font-weight: bold;
+  text-transform: uppercase;
+  background-color: transparent;
+  cursor: pointer;
+  border: 1px solid #FE4F1C;
+
+
+}
+
+.mt-50 {
+  margin-top: 100px;
+}
+
+
+
+.main {
+  max-width: 95%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.bio-text h5 {
+  margin-top: 18vh;
+  color: #12131B;
+  margin-bottom: 30px;
+  text-transform: capitalize;
+}
+
+
+
+.presskit-btn {
+  background-color: #FE4F1C;
+  text-decoration: none;
+  color: white;
+  border: 2px solid transparent;
+  font-weight: bold;
+  padding: 5px 20px;
+  border-radius: 30px;
+  transition: transform .4s;
+
+}
+
+.presskit-btn:hover {
+  color: #FE4F1C;
+  border: 2px solid #FE4F1C;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.typed-cursor {
+  color: white;
+}

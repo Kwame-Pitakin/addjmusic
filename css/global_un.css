@@ -1,0 +1,166 @@
+@media (min-width: 1171px) {
+
+  .u1736-4 {
+    min-height: 242px;
+    font-size: 240px;
+    letter-spacing: -14px;
+    line-height: 240px;
+    text-indent: -20px;
+  }
+
+  .content {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%)
+  }
+
+}
+
+/* body styling */
+
+.u1736-4 {
+  color: #F6F6F6;
+  font-weight: 700;
+  position: relative;
+
+}
+
+.u1736-4 {
+  font-size: 240px;
+  letter-spacing: -14px;
+  text-indent: -20px;
+  margin-bottom: -12vh;
+
+}
+
+.bio-text h2 {
+  font-size: 36px;
+  line-height: 30px;
+  position: relative;
+
+}
+
+.bio-text p {
+  font-size: 16px;
+  position: relative;
+}
+
+.indent-25 {
+  text-indent: 45px;
+}
+
+.bio-image {
+  width: 100%;
+  height: 550px;
+}
+
+.bio-image {
+  background-image: url(../images/about_photo_01.jpg?crc=314126744);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: contain;
+  transition: background-image .5s ease-out 90ms
+}
+
+.bio-image:hover {
+  background: url(../images/ABOUT_PHOTO_02.jpg);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: contain;
+  transition: background-image .5s ease-out 90ms
+}
+
+
+.djinfo-header {
+  font-size: 36px;
+  line-height: 30px;
+  position: relative;
+  width: 80%;
+}
+
+
+/* gigs */
+
+.gigs {
+  background-color: #0B0C11;
+  min-height: 1000px;
+}
+
+.gigs-gallary{
+  width: 100%;
+  position: relative;
+  margin: 50px 0 50px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(250px, 1fr));
+  grid-gap: 30px;
+}
+.gigs-gallary img{
+  width: 100%;
+  cursor: pointer;
+}
+
+.gigs-gallary img:hover{
+  transform:  scale(1.1);
+  transition: all .4s ease;
+}
+
+
+
+.gigs-gallary img:hover{
+  border-radius: 20px;
+  box-shadow: 0px 0px 5px #000, 0px 0px 15px #858585; 
+  transition: all .4s ease;
+
+}
+
+.preview{
+  width: 100%;
+  height: 100vh;
+  background: rgb(0, 0, 0, 0.9);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  transition: all .4s ease;
+}
+
+.preview  img{
+  width: 100%;
+  max-width: 500px;
+}
+.preview .close{
+  position: absolute;
+  top:10%;
+  right: 25%;
+  font-size: 20px;
+  cursor: pointer;
+  color: #F6F6F6;
+}
+
+.next i{
+  font-size: 50px;
+  color: #f6f6f67d;
+  right: 0;
+
+}
+.previous i{
+  font-size: 50px;
+  color: #f6f6f678;
+  left: 0;
+  
+}
+
+.img-details{
+  position: absolute;
+  top:13%;
+  left: 38%;
+  font-size: 20px;
+  width: 100%;
+  cursor: pointer;
+  color: #F6F6F6;
+}
+
+
