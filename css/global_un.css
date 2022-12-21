@@ -55,19 +55,19 @@
 }
 
 .bio-image {
-  background-image: url(../images/about_photo_01.jpg?crc=314126744);
+  background-image: url(../images/bio-image-1.jpg);
   background-repeat: no-repeat;
   background-position: top center;
   background-size: contain;
-  transition: background-image .5s ease-out 90ms
+  transition: background-image .4s ease-out;
 }
 
 .bio-image:hover {
-  background: url(../images/ABOUT_PHOTO_02.jpg);
+  background: url(../images/bio-image-2.jpg);
   background-repeat: no-repeat;
   background-position: top center;
   background-size: contain;
-  transition: background-image .5s ease-out 90ms
+  transition: background-image .4s ease-out;
 }
 
 
