@@ -189,7 +189,16 @@ margin-left: 25%;
 }
 
 
-.yktfv-header {
+/* yktfv */
+
+.yktfv-content {
   position: relative;
   width: 80%;
 }
+
+#yktfvImage2,#yktfvText2{
+  display: none;
+}
+
+
+

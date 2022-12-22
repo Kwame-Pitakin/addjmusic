@@ -92,6 +92,46 @@ hamburger.addEventListener("click", function () {
   }
 
   
+
+//   YKTFV JS
+
+var check1 = document.getElementById('yktfv-radio1');
+var check2 = document.getElementById('yktfv-radio2');
+var check3 = document.getElementById('yktfv-radio3');
+
+ window.onload = ()=>{
+   check1.onclick=()=>{
+            // swapping Text
+            document.getElementById('yktfvText1').style.display = 'block'; 
+            document.getElementById('yktfvText2').style.display = 'none'; 
+      
+            // swapping image
+            document.getElementById('yktfvImage1').style.display = 'block'; 
+            document.getElementById('yktfvImage2').style.display = 'none'; 
+
+   }
+   check2.onclick=()=>{
+      // swapping Text
+      document.getElementById('yktfvText1').style.display = 'none'; 
+      document.getElementById('yktfvText2').style.display = 'block'; 
+
+      // swapping image
+      document.getElementById('yktfvImage1').style.display = 'none'; 
+      document.getElementById('yktfvImage2').style.display = 'block'; 
+      
+
+
+
+   }
+ }
+
+  
+
+
+
+
+
+
  
 
 
