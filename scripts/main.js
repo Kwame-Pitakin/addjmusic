@@ -89,9 +89,8 @@ hamburger.addEventListener("click", function () {
       }
       
    }
-  }
 
-  
+
 
 //   YKTFV JS
 
@@ -99,7 +98,7 @@ var check1 = document.getElementById('yktfv-radio1');
 var check2 = document.getElementById('yktfv-radio2');
 var check3 = document.getElementById('yktfv-radio3');
 
- window.onload = ()=>{
+
    check1.onclick=()=>{
             // swapping Text
             document.getElementById('yktfvText1').style.display = 'block'; 
@@ -123,7 +122,11 @@ var check3 = document.getElementById('yktfv-radio3');
 
 
    }
- }
+
+  }
+
+  
+
 
   
 
