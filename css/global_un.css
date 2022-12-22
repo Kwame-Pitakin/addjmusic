@@ -193,12 +193,22 @@ margin-left: 25%;
 
 .yktfv-content {
   position: relative;
-  width: 80%;
+  width: 100%;
+  
 }
 
 #yktfvImage2,#yktfvText2{
   display: none;
+  transition: all .4s ease;
 }
 
 
+
+.yktfv-header{
+  /* width: 475px; */
+  min-height: 92px;
+  font-size: 36px;
+  line-height: 43px;
+  padding-bottom: 3rem;
+}
 
