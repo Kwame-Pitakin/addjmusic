@@ -405,66 +405,17 @@
       </div>
     
     </section>
+ 
 
-    <!-- <div class="gigs" style="background-color:#0B0C11 ;    min-height: 1000px;">
 
-      <div class="container">
-        <div class="">
-          <div class="u1736-4 " id="u1736-4" style="color: #252738;">
-            <p style="padding-top: 65px;">Gigs</p>
-          </div>
+    <!-- Scroll To TOP -->
+    <div data-toggle="tooltip" data-placement="top" title="Back to top" onclick="scrollToTop()">
+      <span class="scroll-to-top" > 
   
-  
-        </div>
-  
-      </div>
-    </div> -->
-  
-      <!-- end gigs -->
-
-    <!-- dj info start -->
-
-    <!-- <section class="container dj-info">
-    <div class="">
-      <div class="">
-        <div class="u1736-5 " id="u1736-5" data-content-guid="u1736-5_content">
-          <p>DJ Info</p>
-        </div>
-        <div class=" dj-info-header" style=" ">
-            <p> Over eight years in the business, AD DJ has worked with top clients in the industry & many
-              exciting startups.
-            </p>
-            <div>
-              <div class=" row">
-                <div class="col-lg-6" style="border: 1px solid red;">
-                  <div ><span class="org-text">DJ Since: </span>  2014</div>
-                  <div> <span class="org-text">Category:</span> RadioDJ / Club DJ / Event DJ</div>
-    
-                  <div><span class="org-text"> Main Genre: </span> Afrobeats</div>
-                  <div><span class="org-text">Genres:</span> Amapiano, DanceHall, HipHop, R&B, Trap</div>
-                  <div><span class="org-text">Music source:</span> Paid Downloads (eg. Dj City), Apple Music, Direct Mail (Record label or Artist)</div>
-                  <div><span class="org-text"> Set duration:</span>  1 - 4 hours</div>
-                  <div><span class="org-text">Equipment: </span>  XDJ XZ, Pioneer DDJ 1000 SRT, Technics  SL-1210 MK2, Pioneer CDJ-2000 NXS, Pioneer
-                    CDJ-3000, Pioneer DJM 900 NXS,  Pioneer S9, S11,  RANE 72 RANE ONE etc</div>
-                </div>
-                <div class="col-lg-6" style="border: 1px solid red;">
-                  <span class="org-text" >Extra info:</span> AD DJ also plays at Amapiano and Brunch which is one of Ghana’s biggest day parties,
-                    witnessing performances from top artistes in Africa and beyond.
-                    AD DJ is a nominee at the Ghana Entertainment Awards, USA for Best DJ Act. His craft transcends DJing.
-                    He is an artiste and an occasional playlist curator.
-                </div>
-              </div>
-            </div>
-        </div>
-       
-
-      </div>
-
+      </span>
     </div>
+   
 
-  </section> -->
-    <!-- dj info end -->
-    <!-- gigs -->
 
 
 
@@ -478,8 +429,25 @@
         loop: true,
       };
       var typed = new Typed(".input", options);
-    </script>
 
+      window.addEventListener('scroll',function () {  
+        var scroll = document.querySelector('.scroll-to-top');
+        scroll.classList.toggle("active", window.scrollY > 500)
+
+      })
+
+      function scrollToTop(){
+        window.scrollTo({
+          top:0,
+          behavior:'smooth'
+        })
+      }
+
+
+    </script>
+<script>
+
+</script>
 
   </body>
 </html>

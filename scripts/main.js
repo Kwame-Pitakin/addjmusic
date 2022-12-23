@@ -142,3 +142,9 @@ var check3 = document.getElementById('yktfv-radio3');
 
 
 
+
+
+
+//   $(function () {
+//    $('[data-toggle="tooltip"]').tooltip()
+//  })

@@ -426,3 +426,42 @@ div ul li a {
 .typed-cursor {
   color: white;
 }
+
+
+
+/* scroll to top */
+.scroll-to-top{
+  position: fixed;
+  right: 40px;
+  bottom: 800px;
+  background: #000 url(../images/scrol-to-top/dj-64.png) ;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: transform .7s ease-in-out;
+  cursor: pointer;
+  z-index: 5000;
+  visibility: hidden;
+  opacity: 0;
+}
+
+
+.scroll-to-top:hover{
+  transform: rotate(360deg);
+}
+
+.scroll-to-top{
+  visibility: hidden;
+  opacity: 0;
+  transition: .6s ;
+}
+
+.scroll-to-top.active{
+  bottom: 40px;
+  opacity: 1;
+  visibility: visible;
+  transition: .6s ;
+}
+
