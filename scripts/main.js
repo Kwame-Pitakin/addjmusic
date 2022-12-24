@@ -117,15 +117,14 @@ var check3 = document.getElementById('yktfv-radio3');
       // swapping image
       document.getElementById('yktfvImage1').style.display = 'none'; 
       document.getElementById('yktfvImage2').style.display = 'block'; 
-      
-
-
-
+   
    }
 
   }
 
-  
+
+
+
 
 
   
