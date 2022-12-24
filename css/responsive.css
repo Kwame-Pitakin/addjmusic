@@ -77,13 +77,41 @@ header.sticky{
   }
 
   .bio-text h2 {
-  font-size: 26px;
+  font-size: 24px;
   line-height: 30px;
 }
 .bio-text p {
-  font-size: 12px;
+  font-size: 13px;
   position: relative;
 }
+.bio-image {
+  margin-top: 2rem;
+  width: 100%;
+  height: 400px;
+}
+.djinfo-header{
+  width: 100%;
+}
+.djinfo-header  h2{
+  font-size: 24px;
+}
+
+.djinfo-text{
+  font-size: 13px;
+}
+.extra-info{
+  margin-top: 2rem;
+}
+.djinfo-btn{
+  display: flex;
+  justify-content: space-around;
+
+  
+}
+.djinfo-btn span a{
+  font-size: 12px;
+}
+
 
  }
 
