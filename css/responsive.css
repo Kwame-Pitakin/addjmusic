@@ -73,8 +73,10 @@ header.sticky{
     line-height: 240px;
     left: 4%;
     width: 100%;
+    text-indent: -5px;
     letter-spacing: normal;
   }
+
 
   .bio-text h2 {
   font-size: 24px;
@@ -126,11 +128,12 @@ header.sticky{
     justify-content: center;
     align-items: center;
     margin-left: 0;
- 
-
-  
 }
 
+
+.video-content {
+  margin-top: 0;
+}
 
 
 
@@ -144,8 +147,14 @@ header.sticky{
   right: 20px;
 }
 
+.footer-logo  {
+  padding-left: 8%;
+}
+.footer-logo  img{
+  width: 70px;
+  
 
-
+}
 
  }
 
