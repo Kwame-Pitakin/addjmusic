@@ -3,12 +3,12 @@
 
 @media screen and (max-width: 600px)
  { 
-  nav .hamb {
+  /* nav .hamb {
     width: 20px;
   }
   nav .hamb span {
     height: 2px;
-  }
+  } */
 
 .logo  img{
   top: 40px;
