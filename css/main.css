@@ -36,7 +36,7 @@ header{
 
 header.sticky{
   position: fixed;
-	background: #080c1b90; ;
+	background: #080c1b90;
 	border-bottom: 1px solid #0e1630;
 }
 
@@ -87,10 +87,13 @@ nav .hamb span:nth-child(2) {
 .logo  img{
   width: 110px;
   height: auto;
-
 }
 
-
+.content .disc{
+  color: white; 
+  font-weight: 800;
+   text-transform: uppercase
+}
 
 
 
@@ -137,14 +140,12 @@ nav ul li a {
     width: 100%;
     height: 100vh;
     background: linear-gradient(rgba(216, 4, 4, 0.041), rgba(207, 137, 137, 0.067)), url(../images/mainbg2.jpg);
-    /* background-size: cover; */
-    /* background-position: center; */
+    
     position: relative;
-    /* border: 2px solid red; */
+
 
     /*  */
     background-repeat: no-repeat;
-    /* background-size: contain; */
 
   }
 

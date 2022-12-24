@@ -1,0 +1,96 @@
+/* screen below 600 */
+
+
+@media screen and (max-width: 600px)
+ { 
+  nav .hamb {
+    width: 20px;
+  }
+  nav .hamb span {
+    height: 2px;
+  }
+
+.logo  img{
+  top: 40px;
+  width: 70px;
+  height: auto;
+  position: absolute;
+
+}
+
+header.sticky{
+  height: 80px;
+}
+
+.hero {
+  width: 100%;
+  height: 70vh;
+
+}
+.content .hero-bio{
+  font-size: 12px;
+}
+.big-name {
+  color: #FE4F1C;
+  font-size: 30px;
+  margin: 10px 0px 10px;
+}
+
+.hero-bio {
+  width: 100%;
+  color: white;
+  font-size: 16px;
+  font-weight: lighter;
+  line-height: 30px;
+  letter-spacing: 1px;
+}
+
+.content .disc{
+  color: white; 
+  font-size: 20px;
+  font-weight: 500;
+  text-transform: uppercase
+}
+
+  .content{
+    position: absolute;
+    height: 50%;
+    width: 95%;
+    top: 40%;
+    left: 5%;
+    text-transform: translateY(-50%);
+  }
+
+  .socials a {
+    width: 27px;
+    height: 27px;
+    font-size: 12px;
+  }
+
+  .u1736-4 {
+    min-height: 242px;
+    font-size: 96px;
+    line-height: 240px;
+    left: 4%;
+    width: 100%;
+    letter-spacing: normal;
+  }
+
+  .bio-text h2 {
+  font-size: 26px;
+  line-height: 30px;
+}
+.bio-text p {
+  font-size: 12px;
+  position: relative;
+}
+
+ }
+
+
+    /* width: 330px;
+    min-height: 121px;
+    font-size: 96px;
+    letter-spacing: -10px;
+    line-height: 96px;
+    text-indent: -8px; */
