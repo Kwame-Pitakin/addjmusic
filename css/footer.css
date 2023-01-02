@@ -124,6 +124,17 @@ a.tel-mail:hover {
 
 }
 
+.footer .footer-social .soundcloud:hover {
+    color: #F9F4E8;
+    border-color: #ff7700;
+    background: #ff7700;
+}
+.footer .footer-social .apple:hover {
+    color: #F9F4E8;
+    border-color: rgba(217, 72, 221);
+    background: rgba(217, 72, 221);
+}
+
 .footer .footer-social .facebook:hover {
     color: #F9F4E8;
     background: #1877f2;
