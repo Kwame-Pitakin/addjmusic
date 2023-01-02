@@ -286,6 +286,10 @@ div ul li a {
 .socials .facebook:hover {
   background: #3b5998;
 }
+.socials .youtube:hover {
+  background: #FF0000
+  ;
+}
 
 .socials .instagram:hover {
   background: #d62976;
