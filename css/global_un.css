@@ -225,3 +225,13 @@
 .video {
   background-color: #0B0C11;
 }
+
+/* photos section  */
+.item{
+  transition: .5s ease-in-out;
+}
+
+.item:hover{
+  filter: brightness(70%);
+}
+
