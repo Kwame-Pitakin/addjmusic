@@ -11,7 +11,7 @@
   } */
 
 .logo  img{
-  top: 40px;
+  top: 20px;
   width: 70px;
   height: auto;
   position: absolute;
@@ -19,7 +19,7 @@
 }
 
 header.sticky{
-  height: 80px;
+  height: 60px;
 }
 
 .hero {
@@ -54,9 +54,9 @@ header.sticky{
 
   .content{
     position: absolute;
-    height: 50%;
+    height: 40%;
     width: 95%;
-    top: 40%;
+    top: 25%;
     left: 5%;
     text-transform: translateY(-50%);
   }
@@ -75,6 +75,7 @@ header.sticky{
     width: 100%;
     text-indent: -5px;
     letter-spacing: normal;
+    
   }
 
 
@@ -163,9 +164,55 @@ header.sticky{
  }
 
 
-    /* width: 330px;
-    min-height: 121px;
-    font-size: 96px;
-    letter-spacing: -10px;
-    line-height: 96px;
-    text-indent: -8px; */
+
+
+@media screen and (max-width: 560px) {
+
+
+  .socials ul li {
+    display: inline;
+    list-style-type: none;
+    padding: 2px 2px;
+}
+}
+@media screen and (max-width: 320px) {
+
+
+  .u1736-4 {
+    min-height: 242px;
+    font-size: 70px;
+    line-height: 240px;
+    left: 4%;
+    width: 100%;
+    text-indent: -5px;
+    letter-spacing: normal;
+    
+  }
+
+ .content {
+    height: 30%;
+    width: 95%;
+    top: 25%;
+}
+.big-name {
+  font-size: 25px;
+}
+.content .disc {
+  font-size: 18px;
+}
+.content .hero-bio {
+  font-size: 10px;
+}
+
+
+}
+
+
+
+/* section headers */
+
+/* .u1736-4 {
+  color: crimson;
+  width: 100%;
+  overflow: hidden;
+} */

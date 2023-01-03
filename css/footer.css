@@ -21,14 +21,14 @@
 
 }
 
-@media only screen and (max-width: 760px) {
+/* @media only screen and (max-width: 760px) {
 
     #usefulLinks,
     #aboutus {
         display: none;
     }
 
-}
+} */
 
 /*END banner of header style not prt of footer */
 a {

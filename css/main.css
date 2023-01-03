@@ -64,7 +64,7 @@ nav .hamb {
   width: 30px;
   height: 20px;
   right: 3%;
-  top: 40px;
+  top: 20px;
   z-index: 150;
   position: absolute;
   cursor: pointer;
@@ -243,7 +243,7 @@ div ul li a:hover {
 
 
 
-div ul li {
+.socials ul li {
   display: inline;
   list-style-type: none;
   padding: 10px 10px;
