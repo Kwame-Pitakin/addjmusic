@@ -51,8 +51,8 @@ nav {
   align-items: center;
   justify-content: space-between;
   padding-top: 20px;
-  padding-left: 8%;
-  padding-right: 8%;
+  padding-left: 3%;
+  padding-right: 3%;
 }
 
 nav a{
@@ -64,7 +64,7 @@ nav .hamb {
   width: 30px;
   height: 20px;
   right: 3%;
-  top: 20px;
+  top: 40px;
   z-index: 150;
   position: absolute;
   cursor: pointer;
@@ -161,9 +161,7 @@ div ul li a:hover {
 }
 
 
-#bum-space {
-  visibility: hidden;
-}
+
 
 @media screen and (max-width:930px) {
   nav .hamb {
