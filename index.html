@@ -80,6 +80,13 @@
   </head>
 
   <body>
+    <!-- preloader -->
+    <div id="preloader">
+      
+    </div>
+
+    <!-- end preloader -->
+
     <!-- Hero Section -->
 
     <section class="hero">
@@ -754,5 +761,17 @@
 
       // end scroll to top
     </script>
+
+    <!-- preloader -->
+    <script>
+      var loader = document.getElementById("preloader");
+
+      window.addEventListener("load", function () {
+        loader.style.display ="none";
+        
+        })
+    </script>
+
+    <!-- end preloader -->
   </body>
 </html>

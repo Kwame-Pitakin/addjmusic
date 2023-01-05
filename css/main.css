@@ -427,3 +427,13 @@ div ul li a {
   transition: .6s ;
 }
 
+/* preloader */
+#preloader{
+  background: rgb(239, 237, 237) url(../images/gif/BlushingBrownLamb-max-1mb.gif) no-repeat center;
+  background-size: 20%;
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  z-index: 10000;
+}
+
