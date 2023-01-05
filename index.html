@@ -76,7 +76,12 @@
       integrity="sha512-uURl+ZXMBrF4AwGaWmEetzrd+J5/8NRkWAvJx5sbPSSuOb0bZLqf+tOzniObO00BjHa/dD7gub9oCGMLPQHtQA=="
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
-    ></script>
+    >
+  </script>
+
+<!-- reveal scroll -->
+<script src="https://unpkg.com/scrollreveal"></script>
+
   </head>
 
   <body>
@@ -408,33 +413,46 @@
         </div>
         <div class="col-lg-6">
           <div id="yktfvText1">
-            <div class="org-text pt-4 yktfv-header">
+            <div class="org-text pt-4 yktfv-header1">
               Live Night in SixNine Club, Paris / France
             </div>
-            witnessing performances from top artistes in Africa and beyond. AD
+            <p class="yktfv-text1"> 
+              witnessing performances from top artistes in Africa and beyond. AD
             DJ is a nominee at the Ghana Entertainment Awards, USA for Best DJ
             Act. His craft transcends DJing. He is an artiste and an occasional
             playlist curator.
+
+            </p>
+            
             <div class="pt-4">
-              witnessing performances from top artistes in Africa and beyond. AD
+              <p class="yktfv-text1">
+                witnessing performances from top artistes in Africa and beyond. AD
               DJ is a nominee at the Ghana Entertainment Awards, USA for Best DJ
               Act. His craft transcends DJing. He is an artiste and an
               occasional playlist curator.
+              </p>
+              
             </div>
           </div>
           <div id="yktfvText2">
-            <div class="org-text pt-4 yktfv-header">
+            <div class="org-text pt-4 yktfv-header2">
               Abolowey in nuhu Club, Accra / Ghana
             </div>
-            witnessing performances from top artistes in Africa and beyond. AD
+            <p class="yktfv-text2">
+               witnessing performances from top artistes in Africa and beyond. AD
             DJ is a nominee at the Ghana Entertainment Awards, USA for Best DJ
             Act. His craft transcends DJing. He is an artiste and an occasional
             playlist curator.
+            </p>
+           
             <div class="pt-4">
-              witnessing performances from top artistes in Africa and beyond. AD
+              <p class="yktfv-text2">
+                witnessing performances from top artistes in Africa and beyond. AD
               DJ is a nominee at the Ghana Entertainment Awards, USA for Best DJ
               Act. His craft transcends DJing. He is an artiste and an
               occasional playlist curator.
+              </p>
+              
             </div>
           </div>
 
@@ -476,7 +494,7 @@
           you the power to jack your body!
         </h2>
       </div>
-      <div class="row pl-3">
+      <div class="row pl-3" id="musicIframes">
         <div class="col-lg-12">
           <iframe
             width="100%"
@@ -788,6 +806,30 @@
     <!-- end active menu -->
 
 
+    <!-- reveal scroll -->
+    <script>
+
+      ScrollReveal({ 
+        reset: true,
+        distance:'100px',
+        duration:2500,
+        delay:400,
+       });
+       ScrollReveal().reveal('.u1736-4 p , .bio-image', { delay: 400, origin:'bottom'});
+       ScrollReveal().reveal('.bio-text, .djinfo-header h2, .content', { delay: 500, origin:'left'});
+       ScrollReveal().reveal('.djinfo-text div, #musicIframes ', { delay: 400, origin:'bottom'});
+       ScrollReveal().reveal('.socials ul li  ', { delay: 700, origin:'bottom', interval:200});
+       ScrollReveal().reveal('.gigs-gallary img ', { delay: 600, origin:'right'});
+       ScrollReveal().reveal('.yktfv-header1, .yktfv-text1, .form-check, .video-content iframe',{ delay: 700, origin:'right'});
+       ScrollReveal().reveal('#yktfvImage1, .music-btn',{ delay: 700, origin:'left',interval:200});
+
+
+
+  </script>
+
+    <!-- end reveal scroll -->
+
+
     <!-- preloader -->
     <script>
       var loader = document.getElementById("preloader");
@@ -799,5 +841,7 @@
     </script>
 
     <!-- end preloader -->
+
+
   </body>
 </html>

@@ -202,7 +202,14 @@
 
 
 
-.yktfv-header{
+.yktfv-header1{
+  /* width: 475px; */
+  min-height: 92px;
+  font-size: 36px;
+  line-height: 43px;
+  padding-bottom: 3rem;
+}
+.yktfv-header2{
   /* width: 475px; */
   min-height: 92px;
   font-size: 36px;
