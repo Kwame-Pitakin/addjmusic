@@ -159,7 +159,8 @@ nav ul li a {
 
 
 div ul li a:hover {
-  color: #FE4F1C;
+  color: #fff;
+  filter: brightness(80%);
   transition: .4s;
 }
 
@@ -442,8 +443,6 @@ div ul li a {
 
 
 /* active menu class on nav  */
-
-
 
 
 nav ul li.active{
