@@ -1,7 +1,7 @@
 // hamburger
 var hamburger = document.querySelector(".hamb");
 var navlist =document.querySelector(".nav-list");
-var navlist =document.querySelector(".nav-list");
+// var navlist =document.querySelector(".nav-list");
 
 hamburger.addEventListener("click", function () { 
   this.classList.toggle("click");
@@ -14,6 +14,10 @@ hamburger.addEventListener("click", function () {
  window.addEventListener("scroll", function(){
     header.classList.toggle("sticky", window.scrollY > 0);
  });
+
+
+// active menu class on nav
+
 
 
 
@@ -118,7 +122,9 @@ var check3 = document.getElementById('yktfv-radio3');
       document.getElementById('yktfvImage1').style.display = 'none'; 
       document.getElementById('yktfvImage2').style.display = 'block'; 
    
-   }
+   };
+
+
 
   }
 

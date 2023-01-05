@@ -437,3 +437,13 @@ div ul li a {
   z-index: 10000;
 }
 
+
+/* active menu class on nav  */
+
+
+
+
+nav ul li.active{
+  background-color: #FE4F1C;
+  transition: .4s;
+}
