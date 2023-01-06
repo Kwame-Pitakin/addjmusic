@@ -41,6 +41,8 @@ header.sticky{
   position: fixed;
 	background: #080c1b90;
 	border-bottom: 1px solid #0e1630;
+  backdrop-filter: blur(10px);
+  
 }
 
 /* .main-width {
