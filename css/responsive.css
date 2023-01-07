@@ -167,7 +167,9 @@ header.sticky{
 
 
 @media screen and (max-width: 560px) {
-
+  body{
+    width: 100%;
+  }
 
   .socials ul li {
     display: inline;
@@ -209,6 +211,7 @@ header.sticky{
 
 
 @media screen and (max-width: 1030px) {
+
   nav {
     display: flex;
     align-items: center;
