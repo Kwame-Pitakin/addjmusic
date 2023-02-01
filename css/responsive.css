@@ -229,8 +229,8 @@ header.sticky{
 @media screen and (max-width: 480px) {
   .hero {
     width: 100%;
-    /* height: 100vh; */
-    background: linear-gradient(rgba(216, 4, 4, 0.041), rgba(207, 137, 137, 0.067)), url(../images/background-images/IG\ POST_POTRAITE.jpg);
+    height: 60vh;
+    background: linear-gradient(rgba(216, 4, 4, 0.041), rgba(207, 137, 137, 0.067)), url(../images/background-images/trial.jpg) ;
     position: relative;
     background-repeat: no-repeat;
     background-size: 100vw ;
