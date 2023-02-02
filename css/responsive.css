@@ -317,18 +317,7 @@ header.sticky{
 
 
 
-/* between 901 and  */
-@media (min-width: 901px) and (max-width: 1200px) {
 
-  .content{
-    position: absolute;
-    height: 40%;
-    width: 95%;
-    top: 25%;
-    left: 5%;
-    text-transform: translateY(-50%);
-  }
-}
 
 @media (min-width: 901px) and (max-width: 991px) {
 
@@ -343,3 +332,39 @@ header.sticky{
     
   }
 }
+/* between 901 and  */
+@media (min-width: 901px) and (max-width: 1200px) {
+
+  .content{
+    position: absolute;
+    height: 40%;
+    width: 95%;
+    top: 25%;
+    left: 5%;
+    text-transform: translateY(-50%);
+  }
+}
+
+@media (min-width: 912px) and (max-width: 912px) {
+
+  .hero-bio {
+    width: 90%;
+    color: white;
+    font-size: 24px;
+    font-weight: lighter;
+    line-height: 30px;
+    letter-spacing: 3px;
+  }
+
+  .content {
+    width: 80%;
+    top: 50%;
+    transform: translateY(-50%)
+
+}
+.content .disc {
+    font-size: 45px;
+}
+
+}
+
