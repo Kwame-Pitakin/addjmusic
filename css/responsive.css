@@ -329,3 +329,17 @@ header.sticky{
     text-transform: translateY(-50%);
   }
 }
+
+@media (min-width: 901px) and (max-width: 991px) {
+
+  .u1736-4 {
+    min-height: 242px;
+    font-size: 150px;
+    line-height: 240px;
+    left: 4%;
+    width: 100%;
+    text-indent: -5px;
+    letter-spacing: normal;
+    
+  }
+}
