@@ -1,5 +1,20 @@
 /* screen below 600 */
-
+@media (min-width: 600px) and (max-width: 900px) {
+  .hero {
+    width: 100%;
+    height: 60vh;
+    background: linear-gradient(rgba(216, 4, 4, 0.041), rgba(207, 137, 137, 0.067)), url(../images/background-images/IG_POST_SIZE_SQUARE.jpg) ;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: 100vw ;
+  
+  }
+  .bio-image {
+    margin-top: 2rem;
+    width: 100%;
+    height: 500px !important;
+  }
+}
 
 @media screen and (max-width: 900px)
  { 
@@ -18,8 +33,19 @@
 
 }
 
+
 header.sticky{
   height: 60px;
+}
+
+.hero {
+  width: 100%;
+  height: 60vh;
+  background: linear-gradient(rgba(216, 4, 4, 0.041), rgba(207, 137, 137, 0.067)), url(../images/background-images/IG\ POST_POTRAITE.jpg) ;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: 100vw ;
+
 }
 
 .hero {
@@ -251,4 +277,34 @@ header.sticky{
   font-size: 12px;
 }
 
+.pl-3{
+  padding-left: 1.5rem;
+}
+}
+
+
+
+/* 400 to 480 */
+@media (min-width: 400px) and (max-width: 450px) {
+  .hero {
+    width: 100%;
+    height: 60vh;
+    background: linear-gradient(rgba(216, 4, 4, 0.041), rgba(207, 137, 137, 0.067)), url(../images/background-images/IG\ POST_POTRAITE.jpg) ;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: 100vw ;
+  
+  }
+}
+
+@media (min-width: 450px) and (max-width: 490px) {
+  .hero {
+    width: 100%;
+    height: 60vh;
+    background: linear-gradient(rgba(216, 4, 4, 0.041), rgba(207, 137, 137, 0.067)), url(../images/background-images/IG\ POST_POTRAITE.jpg) ;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: 100vw ;
+  
+  }
 }
