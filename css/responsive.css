@@ -1,4 +1,10 @@
-/* screen below 600 */
+
+
+
+
+
+
+/* screen between 600 and 900 */
 @media (min-width: 600px) and (max-width: 900px) {
   .hero {
     width: 100%;
@@ -306,5 +312,20 @@ header.sticky{
     background-repeat: no-repeat;
     background-size: 100vw ;
   
+  }
+}
+
+
+
+/* between 901 and  */
+@media (min-width: 901px) and (max-width: 1200px) {
+
+  .content{
+    position: absolute;
+    height: 40%;
+    width: 95%;
+    top: 25%;
+    left: 5%;
+    text-transform: translateY(-50%);
   }
 }
