@@ -9,7 +9,7 @@
   .hero {
     width: 100%;
     height: 60vh;
-    background: linear-gradient(rgba(216, 4, 4, 0.041), rgba(207, 137, 137, 0.067)), url(../images/background-images/tablets\ copy.jpg) !important ;
+    /* background: linear-gradient(rgba(216, 4, 4, 0.041), rgba(207, 137, 137, 0.067)), url(../images/background-images/tablets\ copy.jpg) !important ; */
     position: relative;
     background-repeat: no-repeat;
     background-size: 100vw ;
