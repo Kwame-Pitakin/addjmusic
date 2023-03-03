@@ -65,6 +65,7 @@
     <link rel="stylesheet" type="text/css" href="css/footer.css" />
     <link rel="stylesheet" type="text/css" href="css/buttons.css" />
     <link rel="stylesheet" type="text/css" href="css/responsive.css" />
+    <link rel="stylesheet" href="css/menu.css">
 
     <!-- bootstrap js -->
     <script
@@ -114,7 +115,7 @@
                 <a href="#AD-home">home</a>
               </li>
               <li class="nav-links"><a href="#AD-about">Bio</a></li>
-              <li class="nav-links"><a href="#AD-djInfo">Info</a></li>
+              <li class="nav-links" ><a href="#AD-djInfo">Info</a></li>
               <li class="nav-links"><a href="#AD-gigs">Gigs</a></li>
               <li class="nav-links"><a href="#AD-yktfv">YKTFV</a></li>
               <li class="nav-links"><a href="#AD-music">Music</a></li>
@@ -872,7 +873,7 @@
 
       function activeMenu() {
         let secLen = sec.length;
-        console.log("this is " + secLen);
+        // console.log("this is " + secLen);
 
         while (--secLen && window.scrollY + 97 < sec[secLen].offsetTop) {}
         li.forEach((ltx) => ltx.classList.remove("active"));

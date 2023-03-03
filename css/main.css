@@ -1,3 +1,6 @@
+:root {
+  --menu-speed: 0.75s;
+}
 * {
   padding: 0;
   margin: 0;
@@ -195,7 +198,7 @@ div ul li a:hover {
 
   nav .nav-list {
     position: absolute;
-    top: 40px;
+    top: 0;
     opacity: 0;
     display: none;
     bottom: 0;
@@ -205,15 +208,23 @@ div ul li a:hover {
     z-index: 120;
     padding: 6% 9%;
     transition: .3s right;
-    border-radius: 10px;
+    
+
+    /* border-radius: 10px; */
   }
 
-  #bum-space {
+  /* #bum-space {
     display: none;
-  }
+  } */
 
   nav .nav-list li {
     display: block;
+    
+  }
+  nav .nav-list {
+    padding-top: 70px;
+
+    
   }
 
   nav .nav-list li a {
@@ -223,6 +234,8 @@ div ul li a:hover {
     font-weight: 400;
     margin-left: 0;
     margin-bottom: 5px;
+    
+    
 
   }
 
@@ -230,12 +243,12 @@ div ul li a:hover {
     right: 0;
     display: block;
     opacity: 100;
-
   }
+
+
   .nav-list .hero-btn {
     padding: 8px 10px;
-    /* width: 50%;
-    left: 25%; */
+    
   }
 
 }

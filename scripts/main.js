@@ -1,11 +1,16 @@
 // hamburger
 var hamburger = document.querySelector(".hamb");
 var navlist =document.querySelector(".nav-list");
-// var navlist =document.querySelector(".nav-list");
 
 hamburger.addEventListener("click", function () { 
   this.classList.toggle("click");
   navlist.classList.toggle("open");
+ });
+
+ navlist.addEventListener("click", function () { 
+   navlist.classList.remove("open");
+   hamburger.classList.remove("click");
+ 
  });
 
 
@@ -14,6 +19,11 @@ hamburger.addEventListener("click", function () {
  window.addEventListener("scroll", function(){
     header.classList.toggle("sticky", window.scrollY > 0);
  });
+
+
+
+
+
 
 
 // active menu class on nav
