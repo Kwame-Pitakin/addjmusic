@@ -383,3 +383,18 @@ header.sticky{
 
 }
 
+/* GIGS Specific responsiveness */
+
+
+
+@media (min-width: 1281px) {
+  
+  .gigs-gh{
+    text-align: left;
+  }
+  
+  .gigs-int{
+    text-align: end;
+  }
+  
+}
