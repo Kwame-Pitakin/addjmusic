@@ -33,16 +33,21 @@
 
 }
 
-.bio-text h2 {
-  font-size: 36px;
+.bio-text  {
   line-height: 30px;
   position: relative;
+}
+.bio-header{
+  font-size: 40px !important;
+  font-weight: 800;
+  line-height: 40px !important;;
 
 }
 
 .bio-text p {
   font-size: 16px;
   position: relative;
+
 }
 
 .indent-25 {
@@ -74,9 +79,10 @@
 
 .djinfo-header {
   font-size: 36px;
-  line-height: 30px;
+  line-height: 40px;
   position: relative;
   width: 80%;
+font-weight: 800;
 }
 
 
@@ -197,9 +203,11 @@
   font-size: 30px;
 }
 
-span.gigs-header  {
+span.gigs-header {
   color: white;
   line-height: 40px;
+  font-size: 40px;
+  font-weight: 800;
 }
 
 /* yktfv */
@@ -265,3 +273,15 @@ span.gigs-header  {
   width: 100%;
   margin-top: 2rem;
 }
+
+
+
+
+/*new  yktfv specific styles */
+/* .yktfv-img-bx{
+  position: relative;
+}
+
+.yktfv-img-bx img{
+  height: 280px;
+} */

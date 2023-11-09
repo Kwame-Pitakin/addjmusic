@@ -398,3 +398,21 @@ header.sticky{
   }
   
 }
+
+/* yktfv specific responsiveness  */
+
+@media (min-width: 1281px)  {
+  
+  .yktfv-content{
+    margin-bottom: 50px;
+  }
+  
+}
+
+
+@media (min-width: 320px) and (max-width: 767px) {
+.u1736-4 img{
+  height: 100px;
+}
+
+}
